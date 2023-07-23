@@ -1,0 +1,46 @@
+body{
+    border: 2px solid black;
+    font-family: sans-serif;
+    
+    
+}
+header h2{
+    text-align: center;
+    background-color: rgba(159, 159, 159, 0.3);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+article h5{
+    color: ;
+    font-weight: bold;
+    font-size: medium;
+
+}
+article a{
+    color: black;
+    cursor: pointer;
+}
+
+article button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+article h3{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+li{
+    font-size:12px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
