@@ -175,3 +175,12 @@ ul,ol{
     width: 800px;
    margin: 0 auto;
 }
+
+nav a:link {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+nav a:link:last-child{
+    margin-right: 0;
+}
