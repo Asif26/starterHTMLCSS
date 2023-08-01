@@ -9,6 +9,7 @@ body {
     font-family: sans-serif;
      border-top: 10px solid #1098ad;
      margin: 0;
+     position: relative;
 }
 .main-header {
     background-color: #f7f7f7;
@@ -26,6 +27,7 @@ article {
 
 .post-header {
     margin-bottom: 40px;
+   
 }
 
 h1 {  
@@ -174,6 +176,7 @@ ul,ol{
 .container {
     width: 800px;
    margin: 0 auto;
+   position: relative;
 }
 
 nav a:link {
@@ -182,5 +185,39 @@ nav a:link {
     margin-top: 10px;
 }
 nav a:link:last-child{
-    margin-right: 0;
+    margin-right: 0; 
 }
+button {
+    position: absolute;
+    bottom:100;
+    left: 200;
+
+}
+
+h1::first-letter{
+    font-style: normal;
+    margin: 5px;
+}
+
+h2 {
+   
+    position: relative;
+
+}
+/* 
+h3 + p::first-line{
+    color: red ;
+} */
+h2::after {
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #000 ;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    right: -25px;
+}
+
