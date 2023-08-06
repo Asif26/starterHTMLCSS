@@ -80,6 +80,8 @@ header p {
 #author {
   font-style: italic;
   font-size: 18px;
+  margin: 0;
+  margin-left: 15px;
 }
 
 aside {
@@ -177,7 +179,7 @@ ol {
 nav a:link {
   display: inline-block;
   margin-right: 30px;
-  margin-top: 10px;
+ 
 }
 nav a:link:last-child {
   margin-right: 0;
@@ -217,14 +219,14 @@ h2::after {
   right: -25px;
 }
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
 
 .author {
   /* padding-left: 20px; */
-  float: left;
+  /* float: left;
   margin-top: 10px;
   margin-left: 20px;
 }
@@ -249,4 +251,25 @@ aside {
 
 footer {
   clear: both;
+} */ 
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.author-box{
+    display: flex;
+    align-items: center;
+}
+.relted-post {
+    display: flex;
+}
+
+.related-author {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
 }
