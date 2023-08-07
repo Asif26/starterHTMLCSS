@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styeg.css">
+    <title>CSS Gird</title>
+    <style>
+       
+       .el--1 {
+            background-color: blueviolet;
+        }
+        
+        .el--2 {
+            background-color: red;
+        }
+        
+        .el--3 {
+            background-color: green;
+            height: 150px;
+        }
+        
+        .el--4 {
+            background-color: rgb(156, 114, 7);
+        }
+        
+        .el--5 {
+            background-color: rgb(226, 100, 178);
+        }
+        
+        .el--6 {
+            background-color: rgb(40, 115, 214);
+        }
+        
+        .el--7 {
+            background-color: rgb(214, 226, 43);
+        }
+        
+        .el--8 {
+            background-color: rgb(165, 3, 25);
+        }
+        .container--1{
+            font-family: sans-serif;
+            background-color: #ddd;
+            font-size: 30px;
+            margin: 40px;
+
+
+            /* CSS GIRD */
+            display: grid;
+            grid-template-columns: 200px 200px 100px  100px;
+
+        
+
+       }
+       .container--2{
+        display: none;
+        font-family: sans-serif;
+        background-color: black;
+        font-size: 40px;
+        margin: 100px;
+
+        width: 1000px;
+        height: 600px;
+
+
+
+        /* CSS GIRD */
+
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container--1">
+        <div class="el el--1">(1)HTML</div>
+        <div class="el el--2">(2)and</div>
+        <div class="el el--3">(3)CSS</div>
+        <div class="el el--4">(4)are</div>
+        <div class="el el--5">(5)amazing</div>
+        <div class="el el--6">(6)langauges</div>
+        <div class="el el--7">(7)to</div>
+        <div class="el el--8">(8)learn</div>
+    </div>
+    <div class="container--2">
+          <div class="el el--1">(1)</div>
+        <div class="el el--2">(2)</div>
+        <div class="el el--3">(3)</div>
+        <div class="el el--4">(4)</div>
+        <div class="el el--5">(5)</div>
+        <div class="el el--6">(6)</div>
+        <div class="el el--7">(7)</div>
+        <div class="el el--8">(8)</div>
+
+    </div>
+
+</body>
+</html>
